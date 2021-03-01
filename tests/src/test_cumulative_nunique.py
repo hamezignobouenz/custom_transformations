@@ -1,5 +1,6 @@
 import unittest
 import pandas as pd
+from numpy.testing import assert_array_equal
 from ...src.cumulative_nunique import cumulative_nunique, engine
 
 
@@ -18,7 +19,7 @@ class TestCumulativeNunique(unittest.TestCase):
         ordering = ['date']
 
         sql_q = cumulative_nunique(agg=agg, partitions=partitions, ordering=ordering, table_id='test_nunique')
-        print(sql_q)
         df = pd.read_sql(sql_q, engine)
-        print(df)
+        out_column = 'nunique_product_client'
+        assert_array_equal(df[out_column].values, df['res'].values)
         return

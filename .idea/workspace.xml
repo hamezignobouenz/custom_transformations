@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437926ed-6ab5-4635-a409-a596c8077fe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/test_cumulative_nunique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/custom_transformations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/custom_transformations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cumulative_nunique.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cumulative_nunique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_nunique.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/test_nunique.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/src/test_cumulative_nunique.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/src/test_cumulative_nunique.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/src/test_cumulative_nunique.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -220,18 +213,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_tests_src_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 15m 38s.xml">
-      <configuration name="pytest for tests.src.cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 17m 56s.xml">
-      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique_test_cumulative_nunique - 2021.03.01 at 14h 23m 02s.xml">
-      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique.test_cumulative_nunique" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique_test_cumulative_nunique - 2021.03.01 at 14h 24m 09s.xml">
-      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique.test_cumulative_nunique" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 24m 37s.xml">
       <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
     </history-entry>
@@ -248,6 +229,18 @@
       <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 30m 03s.xml">
+      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique_test_cumulative_nunique - 2021.03.01 at 14h 34m 53s.xml">
+      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique.test_cumulative_nunique" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique_test_cumulative_nunique - 2021.03.01 at 14h 35m 30s.xml">
+      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique.test_cumulative_nunique" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 36m 36s.xml">
+      <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_tests_src_test_cumulative_nunique_TestCumulativeNunique - 2021.03.01 at 14h 37m 42s.xml">
       <configuration name="pytest for tests.src.test_cumulative_nunique.TestCumulativeNunique" configurationId="tests" />
     </history-entry>
   </component>
@@ -310,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/src/test_cumulative_nunique.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

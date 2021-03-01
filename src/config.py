@@ -1,0 +1,1 @@
+CONNECTION_STRING = 'postgresql://34.78.85.181/postgres?user=postgres&password=mlops-teaching'

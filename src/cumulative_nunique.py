@@ -1,6 +1,3 @@
-import numpy as np
-import pandas as pd
-
 def cumulative_nunique(agg, partitions, ordering, table_id):
     partitions_str = ', '.join(partitions)
     agg_str = ', '.join(agg)
@@ -13,7 +10,7 @@ def cumulative_nunique(agg, partitions, ordering, table_id):
         case when row_number() over (partition by {partitions_str} order by {ordering_str}) = 1
          then 1 else 0
         end as technical_column
-        from {table_id}
+        from "{table_id}"
 ) t1
     """
     return res_query

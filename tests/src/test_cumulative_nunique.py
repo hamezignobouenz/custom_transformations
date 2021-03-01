@@ -1,7 +1,11 @@
 import unittest
 import pandas as pd
 from numpy.testing import assert_array_equal
-from ...src.cumulative_nunique import cumulative_nunique, engine
+from ...src.cumulative_nunique import cumulative_nunique
+from sqlalchemy import create_engine
+from ...src.config import CONNECTION_STRING
+
+engine = create_engine(CONNECTION_STRING)
 
 
 class TestCumulativeNunique(unittest.TestCase):

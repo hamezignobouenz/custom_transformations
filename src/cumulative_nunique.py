@@ -1,10 +1,5 @@
 import numpy as np
 import pandas as pd
-from sqlalchemy import create_engine
-from src.config import CONNECTION_STRING
-
-engine = create_engine(CONNECTION_STRING)
-
 
 def cumulative_nunique(agg, partitions, ordering, table_id):
     partitions_str = ', '.join(partitions)
